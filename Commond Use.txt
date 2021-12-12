@@ -1,0 +1,28 @@
+
+=>Check Node Commoand: node -v
+=>Check NPM Commoand : npm -v
+
+
+--------------------
+=>Craeete Project New Project-=:npm init
+=>step:2 => nodejs-name
+=>step3 =>  npm install express dotenv express-handlebars body-parser mysql
+=>step4 => npm install --save-dev nodemon
+=>step 5=> npm start
+
+npm install express ejs body-parser req-flash express-session mysql --save
+
+
+Admin 3.1.0
+Medilab
+
+********Project Start Commoand***********
+npm start
+
+
+
+
+
+
+
+SELECT testtype.*,testrecord.*,user.* FROM testrecord INNER JOIN testtype ON testrecord.TestTypeId = testtype.id INNER JOIN user ON testrecord.UserId = user.id
